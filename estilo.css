@@ -2,9 +2,8 @@ html, body{
     margin: 0;
 }
 #imagem_igualdade{
-    background: url(igualdade.jpg);
-    height: 32%;
-    background-image: cover;
+    background: url(img/igualdade.jpg);
+    height: 230px;
 }  
 #titulo{
     text-align: center;
@@ -21,7 +20,7 @@ body{
     text-align: center;
 }
 #dif{
-    width: 40%;
+    width: 50%;
 }
 #porque{
     background-color: rgb(228, 228, 228);
@@ -29,4 +28,32 @@ body{
 }
 section{
     padding: 20px;
+    float: left;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+footer{
+    background-color:blanchedalmond;
+    float: left;
+    padding: 0 30%;
+    text-align: center;
+}
+@media all and (max-width: 768px) {
+    .coluna{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
 }
