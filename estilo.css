@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+}
+#imagem_igualdade{
+    background: url(igualdade.jpg);
+    height: 32%;
+    background-image: cover;
+}  
+#titulo{
+    text-align: center;
+    color: rgb(212, 83, 169);
+    font-size: 40px;
+}
+body{
+    background-color: white;
+}
+#botao{
+    color: black;
+    border: 1px black;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+#dif{
+    width: 40%;
+}
+#porque{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+}
+section{
+    padding: 20px;
+}
